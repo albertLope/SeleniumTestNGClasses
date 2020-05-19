@@ -1,0 +1,34 @@
+<suite name = "suite1">
+    <test name = "test1">
+        <parameter name ="browser" value  ="chrome"></parameter>
+        <parameter name ="searchItem" value="teddybear"></parameter>
+        <classes>
+            <class name = "TestNG.CrossBrowser.SearchItemCrossBrowser"></class>
+        </classes>
+    </test>
+
+    <test name = "test2">
+        <parameter name ="browser" value  ="chrome"></parameter>
+        <parameter name ="searchItem" value="phone"></parameter>
+        <classes>
+            <class name = "TestNG.CrossBrowser.SearchItemCrossBrowser"></class>
+        </classes>
+    </test>
+
+    <test name = "test3">
+        <parameter name ="browser" value  ="firefox"></parameter>
+        <parameter name ="searchItem" value="teddybear"></parameter>
+        <classes>
+            <class name = "TestNG.CrossBrowser.SearchItemCrossBrowser"></class>
+        </classes>
+    </test>
+
+    <test name = "test4">
+        <parameter name ="browser" value  ="firefox"></parameter>
+        <parameter name ="searchItem" value="phone"></parameter>
+        <classes>
+            <class name = "TestNG.CrossBrowser.SearchItemCrossBrowser"></class>
+        </classes>
+    </test>
+</suite>
+

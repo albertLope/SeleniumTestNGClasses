@@ -1,0 +1,10 @@
+<suite name ="Suite1" parallel = "classes" thead-count = "4">
+    <test name = "Test1">
+        <classes>
+            <class name ="TestNG.TestNGIntro.TestNGIntroduction"></class>
+            <class name ="TestNG.xmlFile.ExmpleForXMLFile"></class>
+            <class name ="TestNG.xmlFile.ExmpleForXMLFileCopy1"></class>
+            <class name ="TestNG.TestNGIntro.TestNGIntroductionCopy1"></class>
+        </classes>
+    </test>
+</suite>
